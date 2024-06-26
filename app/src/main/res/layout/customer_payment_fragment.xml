@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".ui.customerpayment.CustomerPaymentFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name"
+                    android:textSize="18sp"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_customer_payment_customer_name"
+                    style="@style/EditTextViewComponent"
+                    android:hint="Select Customer"
+                    android:layout_width="match_parent" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginRight="2dp"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        android:textSize="18sp"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/text_customer_payment_date"
+                        style="@style/EditTextViewComponent"
+                        android:layout_width="match_parent" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginRight="2dp"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Balance"
+                        android:textSize="18sp"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/text_customer_payment_balance"
+                        style="@style/EditTextViewComponent"
+                        android:layout_width="match_parent" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_customer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pay"
+                    android:textSize="18sp"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"/>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/text__customer_payment_payed"
+                    style="@style/EditTextViewComponent"
+                    android:layout_width="match_parent" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_customer_payment_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Cancel"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:id="@+id/linear_customer_payment_save"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_customer_payment_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Save"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:id="@+id/linear_customer_payment_update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_marginRight="2dp"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_customer_payment_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="Save"
+                android:background="@drawable/button_background"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="2dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_customer_payment_export"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Export"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:id="@+id/layout_customer_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <!--TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:text="Edit"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white" /-->
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Delete"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Pay Date"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Customer Name"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1dp"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:text="Total"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Advance"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Balance"
+                        android:background="#228B22"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/recycle_list_customer_payment"
+                    tools:listitem="@layout/row_customer_payment_list"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

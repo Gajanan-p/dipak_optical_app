@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable-v21/button_background.xml" value="0.18703703703703703" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable-v21/row_button_background.xml" value="0.11197916666666667" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable-v24/spinner_bg.xml" value="0.1265" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/bg_color_img.xml" value="0.18333333333333332" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/button_background.xml" value="0.18703703703703703" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/dialog_background.xml" value="0.1305" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/edit_text_background.xml" value="0.1935185185185185" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1265" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/drawable/row_background.xml" value="0.1265" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/app_bar_main.xml" value="0.1425925925925926" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/bill_list_fragment.xml" value="0.67" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/billing_fragment.xml" value="0.22" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/content_main.xml" value="0.15" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/customer_payment_fragment.xml" value="0.5" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_bill_list.xml" value="0.2" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_customer.xml" value="0.2" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_customer_name.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_progress_layout.xml" value="0.2" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_search_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/dialog_test_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/fragment_home.xml" value="0.15925925925925927" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/login_fragment.xml" value="0.15462962962962962" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/logout_fragment.xml" value="0.2" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_bill_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_bill_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_customer_payment_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialod_gender.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialog_customer.xml" value="0.2" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialog_leaxis.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialog_leva.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialog_search_bill.xml" value="0.5" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_dialog_search_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_gender_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_leaxis_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_leva_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/layout/row_use_name.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/DipakOpticalApp/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

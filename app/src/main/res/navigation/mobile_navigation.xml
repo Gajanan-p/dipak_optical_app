@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_loginFragment">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dipakopticalapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_customerPaymentFragment"
+            app:destination="@id/nav_customerPaymentFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_billListFragment"
+            app:destination="@id/nav_billListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_billListFragment"
+        android:name="com.example.dipakopticalapp.ui.billlist.BillListFragment"
+        android:label="@string/menu_billListFragment"
+        tools:layout="@layout/bill_list_fragment" >
+        <action
+            android:id="@+id/action_nav_billListFragment_to_nav_billingFragment"
+            app:destination="@id/nav_billingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_customerPaymentFragment"
+        android:name="com.example.dipakopticalapp.ui.customerpayment.CustomerPaymentFragment"
+        android:label="@string/menu_customerPaymentFragment"
+        tools:layout="@layout/customer_payment_fragment" />
+    <fragment
+        android:id="@+id/nav_loginFragment"
+        android:name="com.example.dipakopticalapp.ui.login.LoginFragment"
+        android:label="@string/menu_loginFragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_nav_loginFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_logoutFragment"
+        android:name="com.example.dipakopticalapp.ui.logout.LogoutFragment"
+        android:label="@string/menu_logoutFragment"
+        tools:layout="@layout/logout_fragment" />
+    <fragment
+        android:id="@+id/nav_billingFragment"
+        android:name="com.example.dipakopticalapp.ui.bill.BillingFragment"
+        android:label="@string/menu_billingFragment"
+        tools:layout="@layout/billing_fragment" >
+        <action
+            android:id="@+id/action_nav_billingFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>
